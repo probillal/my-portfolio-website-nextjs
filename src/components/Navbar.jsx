@@ -1,9 +1,10 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Image from "next/image";
+import NavLogo from "../assets/logo.png";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function Navbar() {
   const [activeSection, setActiveSection] = useState("");
@@ -61,8 +62,7 @@ export default function Navbar() {
     { name: "Home", href: "#home", id: "home" },
     { name: "Skills", href: "#skills", id: "skills" },
     { name: "Tech", href: "#tech", id: "tech" },
-    { name: "Projects", href: "#projects", id: "projects" },
-    { name: "Quals", href: "#quals", id: "quals" },
+    { name: "Qualification", href: "#quals", id: "quals" },
     { name: "Contact", href: "#contact", id: "contact" },
   ];
 
@@ -76,15 +76,15 @@ export default function Navbar() {
         >
           <div className="w-10 h-10 rounded-full overflow-hidden bg-secondary-container">
             <Image
-              src="/profile-nav.png"
-              alt="Himanshu Sahani Profile"
+              src={NavLogo}
+              alt="Nav logo"
               width={40}
               height={40}
               className="w-full h-full object-cover"
             />
           </div>
           <span className="text-xl font-bold tracking-tight text-primary">
-            DevPortfolio
+            ProBillal
           </span>
         </motion.div>
 
