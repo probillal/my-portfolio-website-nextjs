@@ -9,8 +9,9 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 });
 
 export const metadata = {
-  title: "Himanshu Sahani | DevPortfolio",
-  description: "Engineering digital excellence with Himanshu Sahani. Seasoned developer focused on building scalable, user-centric applications.",
+  title: "S M Billal Hossain | DevPortfolio",
+  description:
+    "Engineering digital excellence with S M Billal Hossain. Seasoned developer focused on building scalable, user-centric applications.",
 };
 
 export default function RootLayout({ children }) {
@@ -35,10 +36,11 @@ export default function RootLayout({ children }) {
           }}
         />
       </head>
-      <body className={`${plusJakartaSans.variable} font-plus-jakarta antialiased`} suppressHydrationWarning>
-        <SmoothScrollProvider>
-          {children}
-        </SmoothScrollProvider>
+      <body
+        className={`${plusJakartaSans.variable} font-plus-jakarta antialiased`}
+        suppressHydrationWarning
+      >
+        <SmoothScrollProvider>{children}</SmoothScrollProvider>
       </body>
     </html>
   );
