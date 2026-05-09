@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import NavLogo from "../assets/logo.png";
+import NavLogo from "../assets/logo2.png";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import Image from "next/image";
@@ -78,7 +78,7 @@ export default function Navbar() {
             <Image
               src={NavLogo}
               alt="Nav logo"
-              width={40}
+              width={200}
               height={40}
               className="w-full h-full object-cover"
             />
