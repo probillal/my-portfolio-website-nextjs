@@ -39,7 +39,7 @@ export default function AboutMe() {
           <div className="space-y-4 text-body-lg text-on-surface-variant">
             <p>
               Hi there! I'm{" "}
-              <span className="text-green-500">S M Billa Hossain</span>, a
+              <span className="text-green-500">S M Billal Hossain</span>, a
               passionate and driven frontend developer based in Bangladesh. I'm
               at the beginning of my journey in web development, but my
               enthusiasm and dedication to learning are limitless.
